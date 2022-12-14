@@ -1,0 +1,62 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!21 &2100000
+Material:
+  serializedVersion: 6
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: M_ENV_grass_anim_01
+  m_Shader: {fileID: 4800000, guid: fe6bb60a95820004f8330ce31024a3fb, type: 3}
+  m_ShaderKeywords: _ALPHATEST_ON
+  m_LightmapFlags: 4
+  m_EnableInstancingVariants: 0
+  m_DoubleSidedGI: 0
+  m_CustomRenderQueue: -1
+  stringTagMap: {}
+  disabledShaderPasses: []
+  m_SavedProperties:
+    serializedVersion: 3
+    m_TexEnvs:
+    - _BaseTexture:
+        m_Texture: {fileID: 2800000, guid: a989fc0dc85e79446a8cb627ee40454b, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _texcoord:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    m_Floats:
+    - _Cutoff: 0.5
+    - _DistanceFadeEnd: 50
+    - _DistanceFadeOpacity: 0.8
+    - _DistanceFadeStart: 20
+    - _GroundFadeContrast: 2
+    - _GroundFadeHeight: -2.78
+    - _ShadowRecievedStrength: 1
+    - _WindScale: 0.4
+    - _WindStrength: 0.4
+    - _WindTintContrast: 1
+    - _WindTintOpacity: 0.25
+    - _WindTintScale: 0.12
+    - __dirty: 1
+    m_Colors:
+    - _BaseTexColorTint: {r: 0.5882353, g: 0.78431374, b: 0.1882353, a: 0}
+    - _DistanceFadeColor: {r: 0.5333334, g: 0.6745098, b: 0.1607843, a: 1}
+    - _GroundFadeColor: {r: 0.3529412, g: 0.5647059, b: 0.10980392, a: 1}
+    - _WindSpeed: {r: 2, g: 1, b: 0, a: 0}
+    - _WindTintSpeed: {r: -3, g: 1, b: 0, a: 0}
+--- !u!114 &7809771451495108666
+MonoBehaviour:
+  m_ObjectHideFlags: 11
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d0353a89b1f911e48b9e16bdc9f2e058, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  version: 1
